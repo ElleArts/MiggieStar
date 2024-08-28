@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(121, 96, 34);
+    font-family: Caveat;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+
+main{
+    height: 800px;
+    background-color: rgb(222, 185, 150);
+}
+
+.about {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+
+.about img {
+    height: 300px; 
+    width: 300px;
+    position: relative;
+    right: 60px;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: 18px;
+   position: relative;
+   right: 80px;
+   top: 20px;
+}
+
+
+.link {
+    margin-top: 20px;
+    font-family: 'Sevillana', cursive;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(121, 96, 34);
+    margin-bottom: 5px;
+}
+
+.end {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(121, 96, 34);
+    padding: 10px 0;
+}
+
+.marquee img {
+    margin: 0 20px; 
+    margin-top: -5px;
+    
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    background-color: black;
+    height: 25px;
+    color: white;
+    text-align: center;
+   
+}
+
+/* Media Query for Mobile Devices */
+@media(max-width:500px) {
+    header {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+
+    
+
+    .about {
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly; 
+    }
+
+    .about img {
+    height: 200px; 
+    width: 200px;
+    position: relative;
+    right: 30px;
+    top: 62px;
+    margin-bottom: 80px;
+}
+
+.about p {
+    max-width: 600px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 1.5;
+   position: relative;
+   right: 20px;
+   top: 20px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+
+    main{
+        height: 750px;
+    }
+    
+    .marquee img {
+        margin: 0 20px; 
+        margin-top: -5px;
+        margin-bottom: 25px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 150px;
+    }
+    }
+
+
+    @media(max-width:430px) {
+        header {
+            font-size: 24px; /* Smaller font size for mobile */
+        }
+    
+        
+    
+        .about {
+            display: flex;
+            align-items: center; 
+            justify-content: space-evenly; 
+        }
+    
+        .about img {
+        height: 200px; 
+        width: 200px;
+        position: relative;
+        right: 30px;
+        top: 62px;
+        margin-bottom: 80px;
+    }
+    
+    .about p {
+        max-width: 600px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        line-height: 1.5;
+       position: relative;
+       right: 20px;
+       top: 20px;
+        }
+    
+        .link {
+            font-size: 18px;
+        }
+    
+        main{
+            height: 750px;
+        }
+        
+        .marquee img {
+            margin: 0 20px; 
+            margin-top: -5px;
+            margin-bottom: 25px;
+        }
+    
+        footer {
+            position: relative;
+            top: 120px;
+            height: 35px;
+        }
+        }
+    
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            header {
+                font-size: 24px; /* Smaller font size for mobile */
+            }
+        
+            
+        
+            .about {
+                display: flex;
+                align-items: center; 
+                justify-content: space-evenly; 
+            }
+        
+            .about img {
+            height: 200px; 
+            width: 200px;
+            position: relative;
+            right: 30px;
+            top: 62px;
+            margin-bottom: 80px;
+        }
+        
+        .about p {
+            max-width: 600px;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            line-height: 1.5;
+           position: relative;
+           right: 20px;
+           top: 20px;
+            }
+        
+            .link {
+                font-size: 18px;
+            }
+        
+            main{
+                height: 750px;
+            }
+            
+            .marquee img {
+                margin: 0 20px; 
+                margin-top: -5px;
+                margin-bottom: 25px;
+            }
+        
+            footer {
+                position: relative;
+                bottom: 150px;
+            }
+            }
+        
