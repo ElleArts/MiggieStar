@@ -241,3 +241,58 @@ footer{
             }
             }
         
+            @media only screen and (min-width: 320px) and (max-width: 429px) {
+                header {
+                    font-size: 24px; 
+                }
+            
+                
+            
+                .about {
+                    display: flex;
+                    align-items: center; 
+                    justify-content: space-evenly; 
+                }
+            
+                .about img {
+                height: 200px; 
+                width: 200px;
+                position: relative;
+                right: 30px;
+                top: 62px;
+                margin-bottom: 80px;
+            }
+            
+            .about p {
+                max-width: 600px;
+                text-align: left;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 9px;
+                line-height: 1.5;
+               position: relative;
+               right: 20px;
+               top: 20px;
+                }
+            
+                .link {
+                    font-size: 18px;
+                }
+            
+                main{
+                    height: 750px;
+                }
+                
+                .marquee img {
+                    margin: 0 20px; 
+                    margin-top: -5px;
+                    margin-bottom: 25px;
+                }
+            
+                footer {
+                    position: relative;
+                    top: 65px;
+                    height: 35px;
+                }
+                }
+            
+        
